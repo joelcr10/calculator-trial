@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+    <input type="text" placeholder="Enter first number" id="firstInput">
+    <input type="text" placeholder="Enter second number"id="secondInput">
+    <select name="" id="opration" onchange="getOperation(this.value)">
+        <option value="">Select Operator</option>
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="/">/</option>
+        <option value="%">%</option>
+    </select>
+
+    <button onclick="calc()">calculate</button>
+
+    <label for="" id="result-prompt"></label>
+
+    <script src="./scripts/script.js"></script>
+</body>
+</html>
