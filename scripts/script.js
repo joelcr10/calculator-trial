@@ -23,6 +23,8 @@ const calc = () =>{
                     break;
         case "/": result = getQuotient(firstNumber,secondNumber);
                     break;
+        case "%": result = getRemainder(firstNumber,secondNumber);
+                    break;
         default: result = "Incorrect operator";
     }
 
@@ -54,4 +56,12 @@ const getProduct = (firstNumber,secondNumber) =>{
 //return the quotient of both numbers
 const getQuotient = (firstNumber,secondNumber) =>{
 
+}
+
+
+//returns the remainder
+const getRemainder = (firstNumber,secondNumber) =>{
+    console.log("This is remainder function");
+    console.log("heyyy");
+    return secondNumber%firstNumber;
 }
