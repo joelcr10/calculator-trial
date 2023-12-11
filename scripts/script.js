@@ -48,6 +48,7 @@ const getDifference = (firstNumber,secondNumber)=>{
 //takes 2 parameters : firstnumber and secondNumber
 //return the product of both number
 const getProduct = (firstNumber,secondNumber) =>{
+    return firstNumber * secondNumber;
 
 }
 
