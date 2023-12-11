@@ -33,6 +33,7 @@ const calc = () =>{
 //takes 2 parameters : firstnumber and secondNumber
 //add the 2 numbers and return the sum
 const getSum = (firstNumber,secondNumber) =>{
+    return firstNumber+secondNumber; //done by psr
     
 }
 
