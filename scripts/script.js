@@ -35,6 +35,8 @@ const calc = () =>{
 //takes 2 parameters : firstnumber and secondNumber
 //add the 2 numbers and return the sum
 const getSum = (firstNumber,secondNumber) =>{
+    console.log("product");
+    return firstNumber+secondNumber; //done by psr
     
 }
 
@@ -48,7 +50,8 @@ const getDifference = (firstNumber,secondNumber)=>{
 //takes 2 parameters : firstnumber and secondNumber
 //return the product of both number
 const getProduct = (firstNumber,secondNumber) =>{
-    return firstNumber*secondNumber;
+    return firstNumber * secondNumber;
+
 }
 
 
