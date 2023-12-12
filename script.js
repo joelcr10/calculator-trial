@@ -1,4 +1,3 @@
-
 var operation = "";
 const getOperation = (val) =>{
     console.log("inside oper",val);
@@ -35,21 +34,21 @@ const calc = () =>{
 //takes 2 parameters : firstnumber and secondNumber
 //add the 2 numbers and return the sum
 const getSum = (firstNumber,secondNumber) =>{
-    return firstNumber+secondNumber; //done by psr
     
 }
 
 //takes 2 parameters : firstnumber and secondNumber
 //subtract the numbers and return the difference
 const getDifference = (firstNumber,secondNumber)=>{
-    
+    console.log("This is remainder function");
+    console.log("heyyy");
+    return secondNumber-firstNumber ;
 }
 
 
 //takes 2 parameters : firstnumber and secondNumber
 //return the product of both number
 const getProduct = (firstNumber,secondNumber) =>{
-    return firstNumber * secondNumber;
 
 }
 
